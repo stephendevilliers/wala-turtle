@@ -306,16 +306,6 @@ function createDocs(): HTMLElement {
         <li><strong>interaction</strong> — <code>true</code> (default) the turtle reacts to mouse proximity and touch; <code>false</code> disables all interaction so the turtle is purely decorative.</li>
       </ul>
     </div>
-    <div class="docs__help">
-      <h3 class="docs__help-title">Would you like help with installation?</h3>
-      <p class="docs__help-text">Book an integration session with a Watchpost software engineer:</p>
-      <a href="https://calendar.app.google/w8mk1QDjAzztsU3Z6" target="_blank" rel="noopener" class="docs__help-btn">
-        <svg viewBox="0 0 20 20" fill="currentColor" class="docs__help-icon">
-          <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
-        </svg>
-        Book Integration Session
-      </a>
-    </div>
   `;
 
   return docs;
