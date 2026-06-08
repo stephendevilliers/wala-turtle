@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wala Turtle Test</title>
+    <script src="https://wala-animation-demo.web.app/wala-turtle.js?c=1"></script>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        font-family: system-ui, sans-serif;
+      }
+
+      .content {
+        padding: 2rem;
+        color: white;
+      }
+
+      h1 {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Wala Turtle Integration Test</h1>
+      <p>
+        This page tests the deployed wala-turtle.js component from the
+        production URL.
+      </p>
+      <p>
+        The turtle should appear at the bottom of the screen and walk across.
+      </p>
+    </div>
+
+    <wala-turtle
+      asset-path="https://wala-animation-demo.web.app/assets"
+      width="250px"
+      walk-speed="22"
+    ></wala-turtle>
+  </body>
+</html>
